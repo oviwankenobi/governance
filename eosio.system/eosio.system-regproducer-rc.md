@@ -13,16 +13,16 @@ If {{producer}} is unable to perform obligations under this contract I will resi
 I acknowledge that a block is 'objectively valid' if it conforms to the deterministic blockchain rules in force at the time of its creation, and is 'objectively invalid' if it fails to conform to those rules.
 
 {{producer}} hereby agrees to only use {{producer_key}} to sign messages under the following scenarios:
-proposing an objectively valid block at the time appointed by the block scheduling algorithm
-pre-confirming a block produced by another producer in the schedule when I find said block objectively valid
-confirming a block for which {{producer}} has received 2/3+ pre-confirmation messages from other producers
+proposing an objectively valid block at the time appointed by the block scheduling algorithm,
+pre-confirming a block produced by another producer in the schedule when I find said block objectively valid,
+confirming a block for which {{producer}} has received 2/3+ pre-confirmation messages from other producers.
 
 I hereby accept liability for any and all provable damages that result from my:
-signing two different block proposals with the same timestamp with {{producer_key}}
-signing two different block proposals with the same block number with {{producer_key}}
-signing any block proposal which builds off of an objectively invalid block
-signing a pre-confirmation for an objectively invalid block
-signing a confirmation for a block for which I do not possess pre-confirmation messages from 2/3+ other producers
+signing two different block proposals with the same timestamp with {{producer_key}},
+signing two different block proposals with the same block number with {{producer_key}},
+signing any block proposal which builds off of an objectively invalid block,
+signing a pre-confirmation for an objectively invalid block,
+signing a confirmation for a block for which I do not possess pre-confirmation messages from 2/3+ other producers.
 
 I hereby agree that double-signing for a timestamp or block number in concert with 2 or more other producers shall automatically be deemed malicious and subject to a fine equal to the past year of compensation received and imediate disqualification from being a producer, and other damages. An exception may be made if {{producer}} can demonstrate that the double-signing occured due to a bug in the reference software; the burden of proof is on {{producer}}.
 
@@ -37,8 +37,8 @@ The community agrees to allow {{producer}} to authenticate peers as necessary to
 I agree to process transactions on a FIFO best-effort basis and to honestly bill transactions for measured execution time.
 
 I {{producer}} agree not to manipulate the contents of blocks in order to derive profit from:
-the order in which transactions are included
-the hash of the block that is produced
+the order in which transactions are included,
+the hash of the block that is produced.
 
 I, {{producer}}, hereby agree to disclose and attest under penalty of perjury all ultimate beneficial owners of my company who own more than 10% and all direct shareholders.
 
